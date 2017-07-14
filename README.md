@@ -18,9 +18,10 @@ Sample reconstruction of (a)Alipay, (b)Kugou, (c)Weibo traffic image.
 ![image](figures/1.png)
 
 ### Latent Representation
-2-D Latent representation distribution. (The **Labels** are corresponding to **IMTD17** datasets)
+2-D Latent representation distribution.
 
 ![image](figures/2.png)
+***Note:*** **Labels** are corresponding to **IMTD17** datasets
 
 Sample reconstruction from 2-D latent representation.
 ![image](figures/3.png)
@@ -28,8 +29,7 @@ Sample reconstruction from 2-D latent representation.
 ### Traffic Identification
 Classification result under different threshold.
 ![image](figures/4.png)
-
-Classification Result of App Traffic. (___Pre___ for Precision, ___Rec___ for Recall)
+Classification Result of App Traffic.
 
 |   App    | _Pre_ | _Rec_ |   App    | _Pre_ | _Rec_ |
 | -------- | :---: | :---: | -------- | :---: | :---: |
@@ -39,3 +39,4 @@ Classification Result of App Traffic. (___Pre___ for Precision, ___Rec___ for Re
 | CNTV     | 100   | 100   | Taobao   | 100   | 100   |
 | JD       | 100   | 89.1  | WeChat   | 100   | 86.6  |
 | Kugou    | 100   | 94.6  | Weibo    | 100   | 100   |
+***Note:*** ___Pre___ for Precision, ___Rec___ for Recall
