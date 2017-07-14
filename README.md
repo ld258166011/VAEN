@@ -39,4 +39,5 @@ Classification Result of App Traffic.
 | CNTV     | 100   | 100   | Taobao   | 100   | 100   |
 | JD       | 100   | 89.1  | WeChat   | 100   | 86.6  |
 | Kugou    | 100   | 94.6  | Weibo    | 100   | 100   |
+
 ***Note:*** ___Pre___ for Precision, ___Rec___ for Recall
