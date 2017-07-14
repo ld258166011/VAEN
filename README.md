@@ -15,8 +15,12 @@ Variational Autoencoder Network (**VAEN**) implementation on IMTD17 datasets to 
 ### Sample Reconstruction
 Sample reconstruction of (a)Alipay, (b)Kugou, (c)Weibo traffic image.
 
+![image](figures/1.png)
+
 ### Latent Representation
 2-D Latent representation distribution.
+
+![image](figures/2.png)
 
 Sample reconstruction from 2-D latent representation.
 
