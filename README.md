@@ -24,8 +24,12 @@ Sample reconstruction of (a)Alipay, (b)Kugou, (c)Weibo traffic image.
 
 Sample reconstruction from 2-D latent representation.
 
+![image](figures/3.png)
+
 ### Traffic Identification
 Classification result under different threshold.
+
+![image](figures/4.png)
 
 Classification Result of App Traffic. (___Pre___ for Precision, ___Rec___ for Recall)
 
