@@ -27,4 +27,13 @@ Sample reconstruction from 2-D latent representation.
 ### Traffic Identification
 Classification result under different threshold.
 
-Classification Result of App Traffic.
+Classification Result of App Traffic. (___Pre___ for Precision, ___Rec___ for Recall)
+
+|   App    | _Pre_ | _Rec_ |   App    | _Pre_ | _Rec_ |
+| -------- | :---: | :---: | -------- | :---: | :---: |
+| Alipay   | 100   | 100   | QQ       | 100   | 100   |
+| Baidu    | 100   | 100   | QQ Mail  | 100   | 93.2  |
+| Bilibili | 100   | 100   | QQ Music | 100   | 100   |
+| CNTV     | 100   | 100   | Taobao   | 100   | 100   |
+| JD       | 100   | 89.1  | WeChat   | 100   | 86.6  |
+| Kugou    | 100   | 94.6  | Weibo    | 100   | 100   |
