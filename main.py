@@ -140,7 +140,7 @@ def FindThreshold(find_steps=7,
             threshold = 1 - pow(exponent_base, exponent)
             thresholds.append(threshold)
             # Test using label data
-            pridict_ys = VAEN.pridict(test_xs, threshold)
+            pridict_ys = VAEN.pridict(test_xs)
             
             # Part2: Total evaluation
             positive = test_ys.sum(axis=1) > 0
@@ -171,7 +171,7 @@ def Test(threshold=0.99999794,
         VAEN.LoadALL("params/s2param")
     test_num = IMTD.test.images.shape[0]
     test_xs, test_ys = IMTD.test.next_batch(test_num, shuffle=False, rewind=True)
-    pridict_ys = VAEN.pridict(test_xs, threshold)
+    pridict_ys = VAEN.pridict(test_xs)
     
     positive = test_ys.sum(axis=1) > 0
     negative = ~ positive
