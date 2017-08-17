@@ -18,7 +18,6 @@ class VariationalAutoencoderNetwork(object):
         self.x = tf.placeholder(tf.float32, [None, self.network["n_input"]])
         self.epsilon = tf.placeholder(tf.float32, [None, self.network["n_latent"]])
         self.y = tf.placeholder(tf.float32, [None, self.network["n_class"]])
-        self.threshold = tf.placeholder(tf.float32)
         
         self._create_network()
         self._create_optimizer()
@@ -156,9 +155,9 @@ class VariationalAutoencoderNetwork(object):
                                 feed_dict={self.x: x, self.epsilon: e, self.y: y})
         return cost
     
-    def pridict(self, x, t):
+    def pridict(self, x):
         y_pridict = self.sess.run(self.y_pridict,
-                                  feed_dict={self.x: x, self.threshold: t})
+                                  feed_dict={self.x: x})
         return y_pridict
     
     def SaveALL(self, path):
