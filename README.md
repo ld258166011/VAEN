@@ -10,6 +10,8 @@ Variational Autoencoder Network (**VAEN**) implementation on IMTD17 datasets to 
 | figure.py  | Figure drawing helper functions |
 | main.py    | Main process in TensorFlow      |
 
+***Note:*** `.py` files are written for Python 3.x.
+
 ## Application
 
 ### Sample Reconstruction
