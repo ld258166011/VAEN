@@ -4,11 +4,11 @@ Variational Autoencoder Network (**VAEN**) implementation on IMTD17 datasets to 
 ## Introduction
 3 files are available in this repository: 
 
-| File Name  | Description                     | Size (bytes) |
-| :--------- | :------------------------------ | :----------- |
-| model.py   | Variational Autoencoder Network | 8,186        |
-| figure.py  | Figure drawing helper functions | 7,351        |
-| main.py    | Main process in TensorFlow      | 10,654       |
+| File Name  | Description                     |
+| :--------- | :------------------------------ |
+| model.py   | Variational Autoencoder Network |
+| figure.py  | Figure drawing helper functions |
+| main.py    | Main process in TensorFlow      |
 
 ## Application
 
